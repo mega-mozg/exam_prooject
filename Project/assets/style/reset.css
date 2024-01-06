@@ -1,0 +1,26 @@
+/* сброс стандартных настроек */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    /* цвет: наследуемый */
+    color: inherit;
+}
+
+button{
+    /* убираем грницы */
+    border: none;
+    /* убираем фон */
+    background: none;
+}
+
+ul, ol{
+    /* убирает обозначения */
+    list-style: none;
+}
+
+
