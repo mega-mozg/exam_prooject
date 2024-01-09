@@ -69,19 +69,23 @@ header .container {
 
 /* HERO */
 
+.hero .container{
+    position: relative;
+}
+
 .icons{
     display: flex;
     flex-direction: column;
     gap: 30px;
     
     position: absolute;
-    top: 100px;
-    right: 20px;
+    top: 60px;
+    right: -30px;
 
 }
 
 .hero {
-    height: 100vh;
+    height: 815px;
     color: #FFF;
 }
 
